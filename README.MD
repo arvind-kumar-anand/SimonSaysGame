@@ -18,9 +18,11 @@ The **Simon Says Game** is an interactive memory game where players must repeat 
 - **JavaScript**: Implemented the game logic, including user input handling, sequence generation, and game state management.
 
 ## Usage
+
 - **Start the game**: Press any key to begin.
 
 ### Gameplay:
+
 - Observe the displayed sequence of colored buttons.
 - Click the buttons in the exact order they appeared.
 - If you succeed, the game progresses to the next level with an additional random color added to the sequence.
@@ -46,10 +48,6 @@ Enhance the user experience with:
 - Varied difficulty levels for customizable challenges.
 - Animations and transitions for a more engaging visual design.
 - Mobile-friendly optimization for seamless gameplay on various devices.
-
-## Author
-
-Arvind Kumar Anand
 
 ## Acknowledgments
 
