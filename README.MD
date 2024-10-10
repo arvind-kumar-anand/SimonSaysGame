@@ -59,4 +59,3 @@ This project was inspired by classic memory games and serves as a showcase of my
    ```bash
    git clone https://github.com/arvind-kumar-anand/SimonSaysGame.git
    ```
-g
