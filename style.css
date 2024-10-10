@@ -1,41 +1,41 @@
- body {
-            text-align: center;
-            background-image: url(./assets/background.jpg);
-        }
+body {
+  text-align: center;
+  background-image: url(./assets/background.jpg);
+}
 
-        .btn {
-            height: 200px;
-            width: 200px;
-            border: 5px solid black;
-            border-radius: 10%;
-            margin: 1rem;
-        }
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 10%;
+  margin: 1rem;
+}
 
-        .btn-container {
-            display: flex;
-            justify-content: center;
-        }
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
 
-        .yellow {
-            background-color: #f99b45;
-        }
+.yellow {
+  background-color: #f99b45;
+}
 
-        .red {
-            background-color: #d95980;
-        }
+.red {
+  background-color: #d95980;
+}
 
-        .purple {
-            background-color: #819ff9;
-        }
+.purple {
+  background-color: #819ff9;
+}
 
-        .green {
-            background-color: #63aac0;
-        }
+.green {
+  background-color: #63aac0;
+}
 
-        .flash {
-            background-color: white;
-        }
+.flash {
+  background-color: white;
+}
 
-        .user {
-            background-color: green;
-        }
+.user {
+  background-color: green;
+}
