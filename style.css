@@ -1,6 +1,16 @@
 body {
   text-align: center;
-  background-image: url(./assets/background.jpg);
+  /* background-image: url(./assets/background.jpg); */
+  background-image: linear-gradient(to right, #ff758c, #ff7eb3);
+  height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 .btn {
@@ -9,6 +19,13 @@ body {
   border: 5px solid black;
   border-radius: 10%;
   margin: 1rem;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .btn-container {
