@@ -1,14 +1,46 @@
 body {
   text-align: center;
   /* background-image: url(./assets/background.jpg); */
-  background-image: linear-gradient(to right, #ff758c, #ff7eb3);
+  background-image: linear-gradient(to right, #dcd6d6, #decfcf);
   height: 100vh;
+}
+
+header {
+  text-align: center;
+  background-color: transparent;
+}
+
+header h1:first-of-type {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #399918; /* Vibrant orange for your name */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+header h1:nth-of-type(2) {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #024CAA; /* Bright red for the game title */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+header h2 {
+  font-size: 1.5rem;
+  color: #091057; /* Cool blue for instructions */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+span {
+  color: #e74c3c; /* Bright red for the heart */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow to make it pop */
 }
 
 .game-container {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 60vh;
   border-radius: 15px;
   padding: 20px;
 }
